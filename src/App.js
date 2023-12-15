@@ -1,13 +1,12 @@
-import Info from "./components/Info";
 
+import Product from "./components/product/Product";
+import Counter from "./components/counter/Counter"
 function App() {
   return (
-   <div>
-     <Info name="Nguyen Van A" age="30" phone="0123456789" a="b" b="c" c="d"/>
-    <Info name="Le Thi B" age="20" phone="0987654321" a="b" b="c" c="d"/>
-    <Info name="Bui Van C" age="25" phone="0987" a="b" b="c" c="d"/>
-   </div>
-  );
+    <Counter name="abc" age="18">
+      <h1>ABC</h1>
+    </Counter>
+  )
     
 
 }
